@@ -1,13 +1,24 @@
 <html>
 <head>
 <title>Personal Website</title>
-<link rel="stylesheet" type="text/css" href="css/mystyle.css">
+<link rel="stylesheet" type="text/css" href="../css/mystyle.css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="../scripts/workers.js"></script>
 </head>
 <body>
 
-	<div class="top-section"><p class="about-me"></p></div>
+	<div class="topnav" id="myTopnav">
+		  <a href="personalwebsite.html" class="active">Home</a>
+		  <a href="work.html">Work</a>
+		  <a href="awards.html">Awards</a>
+		  <a href="contact.html">Contact</a>
+		  <a href="about.html">About</a>
+		  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+			<i class="fa fa-bars"></i>
+		  </a>
+	</div>
+	<!--<div class="top-section"><p class="about-me"></p></div>-->
 	
 	<center>         
         <div class="container">  
@@ -38,9 +49,7 @@
 		<div class="left-div">		
 		</div>
 		
-		<div class="circular--portrait center-div">
-			<!--<img src="images/Ime.jpg" alt="It's Me!" class="center">-->
-			
+		<div class="circular--portrait center-div">				
 		</div>
 		
 		<div class="right-div">
